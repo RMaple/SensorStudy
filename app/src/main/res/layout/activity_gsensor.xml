@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/g_sensor_layout"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    tools:context="com.ck_telecom.d22400.sensorstudy.GsensorActivity">
+
+    <Button
+        android:id="@+id/btn_start_srv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start"/>
+
+    <Button
+        android:id="@+id/btn_stop_srv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP"/>
+</LinearLayout>
